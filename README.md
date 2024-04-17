@@ -1,5 +1,6 @@
 # DQN Adventure: from Zero to State of the Art
 
+Currently I have only tested dqn.
 
 <img width="160px" height="22px" href="https://github.com/pytorch/pytorch" src="https://pp.userapi.com/c847120/v847120960/82b4/xGBK9pXAkw8.jpg">
 
@@ -33,3 +34,11 @@ First, I recommend to use small test problems to run experiments quickly. Then, 
 - David Silver's course [link](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
 - Berkeley deep RL [link](http://rll.berkeley.edu/deeprlcourse/)
 - Practical RL [link](https://github.com/yandexdataschool/Practical_RL)
+# How to start
+
+```
+conda create -n DQN python=3.8
+conda acivate DQN
+pip3 install torch torchvision torchaudio
+pip install -r  requirements.txt
+```
